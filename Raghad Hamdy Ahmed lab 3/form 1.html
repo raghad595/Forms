@@ -1,0 +1,27 @@
+،<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="styles 1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign In</h1>
+        <form id="signin">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <span id="username-error" class="errorMessage">Username must be filled</span>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="email-error" class="errorMessage">E-mail must be filled</span>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <span id="password-error" class="errorMessage">Password must be filled</span>
+            <button type="button" id="submitButton">Submit</button>
+        </form>
+        <div id="errorMessage"></div> </div>
+    <script src="script 1.js"></script>
+</body>
+</html>
